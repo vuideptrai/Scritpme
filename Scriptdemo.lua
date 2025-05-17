@@ -1,3 +1,4 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/vuideptrai/Scritpme/refs/heads/main/Scriptdemo.lua"))()
 -- UI khởi tạo
 local Window = MakeWindow({
     Hub = {
