@@ -1,3 +1,6 @@
+-- Ui.lua
+-- UI Script dùng thư viện OrionLib, hỗ trợ Deltax, Synapse, KRNL...
+
 local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/shlexware/Orion/main/source"))()
 
 local Window = OrionLib:MakeWindow({
@@ -17,7 +20,8 @@ TabFarm:AddButton({
         local Settings = {
             JoinTeam = "Pirates",
             Translator = true
-   "))(Settings)
+        }
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))(Settings)
     end
 })
 
@@ -53,7 +57,7 @@ local TabMaruFree = Window:MakeTab({
 TabMaruFree:AddButton({
     Name = "Load Maru Script 1",
     Callback = function()
-        loadstring(game:HttpGet(" "))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/yourusername/maruscript1/main/script.lua"))()
         print("Đã tải Maru Script 1")
     end
 })
